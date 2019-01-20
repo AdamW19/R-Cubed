@@ -8,6 +8,8 @@ This project was started and finished during [H.A.R.D Hack 2019 in UCSD](http://
 We wanted to help improve recycling as easily as possible. We decided on placing a small QR code on a given packaging to allow an automated sorting system sort "garbage" into more effective "recycling" and "trash" piles, reducing the amount of items that goes to a landfill. We expect that these QR codes will be placed on packaging by the manufacturer.
 
 # How It Works
+[Here's a link to see R-Cubed in action.](https://www.youtube.com/watch?v=tmMw0Vfbobo)
+
 By using the [Webcam Capture API](https://github.com/sarxos/webcam-capture) and the [ZXing QR/Barcode Decoder](https://github.com/zxing/zxing), we are able to use a webcam to scan for QR/Barcodes and read their value. If it matches a given value, we will display that it can be recycled. Otherwise, it will display that it cannot be recycled. The system would be able to reroute that object accordingly.
 
 # The Given Files
