@@ -20,10 +20,10 @@ By using the [Webcam Capture API](https://github.com/sarxos/webcam-capture) and 
 | Recycling.java | The source code for this program |
 
 # What You Need
-You will need the .jar files for both the [Webcam Capture API](https://github.com/sarxos/webcam-capture) and the [ZXing QR/Barcode Decoder](https://github.com/zxing/zxing) to compile this program. Please note the variable `CAM_NUM`; this is to identify which webcam to use. Zero is the native webcam on your laptop or the webcam on your desktop, and One is a USB webcam on your laptop.
+You will need the .jar files for both the [Webcam Capture API](https://github.com/sarxos/webcam-capture) and the [ZXing QR/Barcode Decoder](https://github.com/zxing/zxing) to compile this program. Please note the variable `CAM_NUM`; this is to identify which webcam to use. Zero(0) is the native webcam on your laptop or the webcam on your desktop, and one(1) is a USB webcam on your laptop.
 
 # Possible Future Improvements
-The addition of more values for the QR code, such as the type of plastic and if it can be composted, would be more effective and more beneficial to the environment. More possible ideas are as follow:
+The addition of more values for the QR code, such as the type of plastic and if it can be composted, would be more effective and more beneficial to the environment. More possible ideas are as follows:
 - More cameras to more accurately read QR codes
 - The use of more high resolution cameras to easily identify and decode QR codes
 - Implementing mashine learning to better identify objects without the need for a QR code
