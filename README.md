@@ -28,5 +28,10 @@ The addition of more values for the QR code, such as the type of plastic and if 
 - The use of more high resolution cameras to easily identify and decode QR codes
 - Implementing mashine learning to better identify objects without the need for a QR code
 
+This technique could also be implemented for product cycling and such.
+
+# Warning
+The code is not clean, and many improvements could be made. Please use this program as inspiration for your own!
+
 # License
 This program is licensed under the Apache License Version 2.0. Please view the [LICENSE](/LICENSE) file for more information.
