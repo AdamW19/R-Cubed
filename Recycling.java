@@ -34,12 +34,13 @@ import com.google.zxing.common.HybridBinarizer;
 
 public class Recycling extends JFrame implements Runnable, ThreadFactory {
 
-	private static final long serialVersionUID = 6441489157408381878L;
+	private static final long serialVersionUID = 0;
 
 	private static final String RECYCLE_STR = "r"; // What string to search for
 	private static final String NOT_RECYCLE = "Unable to be Recycled";
 	private static final String RECYCLE = "Able to be Recycled";
 	private static final String NO_BARCODE = "No barcode found";
+	
 	private static final int CAM_NUM = 0; // 0 is built-in webcam, 1 is external webcam
 	
 	private Executor executor = Executors.newSingleThreadExecutor(this); // Multi-threading!
